@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgba(164, 250, 236, 0.418);
+}
+
+.container {
+    margin: 0.5rem;
+    display: grid;
+    place-items: center;
+}
+
+.container h2 {
+    margin: 0.5rem;
+}
+
+.box {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid black;
+    height: auto;
+    margin: 0.5rem 0rem;
+    padding: 1.5rem;
+    background-color: rgba(146, 230, 255, 0.486)
+}
+
+.box h2 {
+    margin-bottom: 1rem;
+}
+
+.title {
+    width: 15rem;
+    height: 2rem;
+}
+
+.btn {
+    background-color: rgba(250, 106, 106, 0.863);
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 7rem;
+}
+
+.textarea {
+    width: 50%;
+    height: 3rem;
+}
+
+.show {
+    text-align: center;
+}
+
+.show h2 {
+    margin: 0.5rem;
+}
+
+.noteCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.noteCard .card {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: rgba(106, 220, 255, 0.384)
+}

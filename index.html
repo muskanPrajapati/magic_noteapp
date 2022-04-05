@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Note App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h2>WELCOME TO MAGIC NOTE APP</h2>
+            <hr>
+        </div>
+        <div class="box">
+            <h2>ADD A TITLE</h2>
+            <input type="text" placeholder="Add a title...." id="addTitle" class="title">
+            <h2>ADD A NOTE</h2>
+            <textarea id="addText" cols="30" rows="10" class="textarea" placeholder="Make note..." ></textarea>
+            <button id="addBtn" class="btn">ADD NOTE</button>
+        </div>
+    </div>
+    <div class="show">
+        <hr>
+        <h2>YOUR NOTES</h2>
+        <hr>
+        <div id="notes" class="noteCard">
+        </div>
+    </div>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
